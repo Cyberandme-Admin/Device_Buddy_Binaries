@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=DeviceBuddy
+Comment=DeviceBuddy background dashboard
+Exec=./devicebuddy tray
+Icon=./devicebuddy.png
+Terminal=false
+Categories=Utility;
