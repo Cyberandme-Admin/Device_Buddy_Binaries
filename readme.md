@@ -1,16 +1,16 @@
-# DeviceBuddy Public Release Binaries
+# DeviceBuddy Release Binaries
 
-This folder contains the first set of DeviceBuddy binaries to be released publicly for Cyber and Me.
+This repository contains the first public DeviceBuddy release binaries for Cyber and Me.
 
 DeviceBuddy is a small endpoint companion application that runs on a user's device, collects device information, and sends that information to the user's Cyber and Me account. It is intended to support Cyber and Me workflows where the portal needs current device details for visibility, onboarding, assessment, support, or account-linked device records.
 
-These files are intended for public distribution to users who have access to the Cyber and Me portal and need to connect their device information to their Cyber and Me account.
+These files are intended for distribution to users who have access to the Cyber and Me portal and need to connect their device information to their Cyber and Me account.
 
 ## Important Portal Requirement
 
-DeviceBuddy requires the Cyber and Me portal to function correctly.
+DeviceBuddy requires the Cyber and Me portal to complete its intended workflow.
 
-The application is not a standalone device management product. Its primary purpose is to collect information from the local device and submit it to a Cyber and Me account through the Cyber and Me portal. Without a working portal account, portal-side configuration, and network access to the portal services, DeviceBuddy may launch but cannot complete its intended workflow.
+The application is not a standalone device management product. Its primary purpose is to collect information from the local device and submit it to a Cyber and Me account through the Cyber and Me portal. Without a working portal account, portal-side configuration, and network access to the portal services, DeviceBuddy may launch but cannot submit device information or complete account linking.
 
 At minimum, successful use requires:
 
@@ -177,6 +177,7 @@ Use this checklist before distributing or supporting these binaries:
 When distributing these public release binaries:
 
 - Clearly identify them as the first public DeviceBuddy binaries.
+- Verify users are directed to the correct Cyber and Me portal environment.
 - Share them with users who have a Cyber and Me account and access to the required portal workflow.
 - Include the target portal environment to use for testing.
 - Include known limitations and expected setup steps.
